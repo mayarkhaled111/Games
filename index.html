@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <div id="loadingScreen" class="loading-screen d-none">
+    <div class="spinner-border text-primary" role="status">
+        <span class="visually-hidden">Loading...</span>
+    </div>
+  </div>
+  <div id="home" >
+  <section class="image"></section>
+  <div class="container">
+    <nav class="navbar navbar-expand-lg w-100 m-auto position-sticky px-5 z-3">
+      <div class="container">
+        <p class="navbar-brand m-0" href="#"><img src="images/logo-sm.png" alt="logo">GAME REVIEWS</p>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa-solid fa-bars fa-lg" style="color: #ffffff;"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" data-cat="mmorpg" href="#">mmorpg</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-cat="shooter" href="#">shooter</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-cat="sailing" href="#">sailing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-cat="permadeath" href="#">permadeath</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-cat="superhero" href="#">superhero</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-cat="pixel" href="#">pixel</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <div class="games">
+    <div class="container">
+      <div class="row g-4">
+      </div>
+    </div>
+  </div>
+  </div>
+  <section class="details text-light d-none">
+    <div class="container">
+      <div class="gname d-flex justify-content-between align-items-center mx-5">
+        <h2 class="text-light">Details Game</h2>
+        <i class="fa-solid fa-xmark fa-xl position-absolute  " style="color: #ffffff;" ></i>
+      </div>
+      <div class="conntent m-5 position-relative ">
+        <div class="row">
+          <div class="col-4">
+            <img src="images/thumbnail (1).jpg" alt="" class="w-100">
+          </div>
+          <div class="col-8 dgame">
+            <h3>Title: Marvel Snap</h3>
+            <p>Category: <span> Card Game</span></p>
+            <p>Platform: <span> windows</span></p>
+            <p>Status: <span> live</span></p>
+            <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, voluptatem quidem repudiandae, esse
+              magni soluta accusantium ipsa maxime non quasi modi reprehenderit dolore et. Maxime doloribus suscipit vel
+              perspiciatis quia?</p>
+              <button class="btn">show game</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
